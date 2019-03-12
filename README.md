@@ -27,7 +27,7 @@ function draw() {
     let sound = sounds[i];
     if (sound.isPlaying()) {
       map(sound.currentTime(), 0, sound.duration(), 255, 220);
-      for (var x = 10; x < 390; x = x + 70) {
+      for (var x = 10; x < 390; x = x + 40) {
       ellipse(width / sounds. length * (i + 1), 200, x + 20);
       }
     }
