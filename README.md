@@ -21,43 +21,42 @@ function setup() {
 
 function draw() {
   background(220);
-  noStroke();
+  noFill();
 
   for (var i = 0; i < sounds.length; i++) {
     let sound = sounds[i];
     if (sound.isPlaying()) {
-      fill(map(sound.currentTime(), 0, sound.duration(), 100, 220));
-			translate(0, 50);
-		  ellipse(width / sounds. length * (i + 1), height / 2, 100, 100);
-      scale();
-      ellipse(width / sounds. length * (i + 1), height / 2, 200, 200);
+      map(sound.currentTime(), 0, sound.duration(), 255, 220);
+      for (var x = 10; x < 390; x = x + 70) {
+      ellipse(width / sounds. length * (i + 1), 200, x + 20);
+      }
     }
   }
 }
 
-function keyPressed() {
-  if (key == 'a') {
+function mouseMoved() {
+  if (mouseY <= 30) {
     sounds[0].play();
   }
-  if (key == 'w') {
+  if (mouseY <= 60) {
     sounds[1].play();
   }
-  if (key == 's') {
+  if (mouseY <= 90) {
     sounds[2].play();
   }
-  if (key == 'e') {
+  if (mouseY <= 120) {
     sounds[3].play();
   }
-  if (key == 'd') {
+  if (mouseY <= 150) {
     sounds[4].play();
   }
-  if (key == 'f') {
+  if (mouseY <= 180) {
     sounds[5].play();
   }
-  if (key == 't') {
+  if (mouseY <= 210) {
     sounds[6].play();
   }
-  if (key == 'g') {
+  if (mouseY <= 240) {
     sounds[7].play();
   }
   if (key == 'y') {
