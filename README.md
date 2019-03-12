@@ -59,19 +59,19 @@ function mouseMoved() {
   if (mouseY <= 240) {
     sounds[7].play();
   }
-  if (key == 'y') {
+  if (mouseY <= 270) {
     sounds[8].play();
   }
-  if (key == 'h') {
+  if (mouseY <= 300) {
     sounds[9].play();
   }
-  if (key == 'u') {
+  if (mouseY <= 330) {
     sounds[10].play();
   }
-  if (key == 'j') {
+  if (mouseY <= 360) {
     sounds[11].play();
   }
-  if (key == 'k') {
+  if (mouseY <= 390) {
     sounds[12].play();
   }
   if (key == 'o') {
