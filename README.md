@@ -35,43 +35,43 @@ function draw() {
 }
 
 function mouseMoved() {
-  if (mouseY <= 30) {
+  if (mouseY < 30) {
     sounds[0].play();
   }
-  if (mouseY <= 60) {
+  if (mouseY < 60) {
     sounds[1].play();
   }
-  if (mouseY <= 90) {
+  if (mouseY < 90) {
     sounds[2].play();
   }
-  if (mouseY <= 120) {
+  if (mouseY < 120) {
     sounds[3].play();
   }
-  if (mouseY <= 150) {
+  if (mouseY < 150) {
     sounds[4].play();
   }
-  if (mouseY <= 180) {
+  if (mouseY < 180) {
     sounds[5].play();
   }
-  if (mouseY <= 210) {
+  if (mouseY < 210) {
     sounds[6].play();
   }
-  if (mouseY <= 240) {
+  if (mouseY < 240) {
     sounds[7].play();
   }
-  if (mouseY <= 270) {
+  if (mouseY < 270) {
     sounds[8].play();
   }
-  if (mouseY <= 300) {
+  if (mouseY < 300) {
     sounds[9].play();
   }
-  if (mouseY <= 330) {
+  if (mouseY < 330) {
     sounds[10].play();
   }
-  if (mouseY <= 360) {
+  if (mouseY < 360) {
     sounds[11].play();
   }
-  if (mouseY <= 390) {
+  if (mouseY < 390) {
     sounds[12].play();
   }
   if (key == 'o') {
