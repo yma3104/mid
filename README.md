@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(400);
   noFill();
 
   for (var i = 0; i < sounds.length; i++) {
